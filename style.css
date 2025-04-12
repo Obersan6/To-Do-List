@@ -1,0 +1,28 @@
+
+/* Body */
+.bg-light {
+    background-color: rgb(145, 165, 239) !important;
+}
+
+.title {
+    color: rgb(234, 60, 213);
+    font-family: "Montez", cursive;
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 7rem;
+}
+
+.form-label {
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal; 
+    font-size: 3rem !important;
+}
+
+/* Class used to cross out the todo selected when checkbox gets clicked  */
+.crossed-todo {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+  
+
