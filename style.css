@@ -1,28 +1,92 @@
 
 /* Body */
 .bg-light {
-    background-color: rgb(145, 165, 239) !important;
+    background-color: #FFFBE6 !important;
 }
 
+/* Title */
 .title {
-    color: rgb(234, 60, 213);
     font-family: "Montez", cursive;
     font-weight: bold;
     font-style: normal; 
-    font-size: 7rem;
+    font-size: 6rem;
+    color: #FFA552 !important;
+    text-shadow: 2px 2px 4px #fff;
 }
 
+/* Form Label */
 .form-label {
     font-family: "Indie Flower", cursive;
-    font-weight: bold;
-    font-style: normal; 
-    font-size: 3rem !important;
+    font-weight: bold !important;
+    font-style: normal !important; 
+    font-size: 2.5rem !important;
+    color: #FFA552 !important;
 }
 
-/* Class used to cross out the todo selected when checkbox gets clicked  */
+/* Input */
+#task {
+    border-radius: 1rem;
+    padding: 0.75rem 1rem  !important;
+    font-family: "Indie Flower", cursive !important;
+    font-size: 1.2rem !important;
+}
+
+/* Button */
+.btn-info {
+    background-color: #0dd5e0 !important;
+    border: none;
+    color: #FFFFFF !important;
+    font-family: "Indie Flower", cursive !important;
+    font-size: 1.2rem !important;
+    padding: 0.6rem 1.2rem !important; 
+    border-radius: 1.5rem !important;
+    /* transition: background-color 0.3s ease !important; */
+}
+
+.btn-info:hover {
+    background-color: #0aa5ad !important;
+}
+
+/* Task List Elements */
+/* Task List */
+#list ul {
+    padding-left: 0;
+}
+
+.list-group-item {
+    background-color: #fff0f5;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Indie Flower", cursive;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+/* Crossed out */
 .crossed-todo {
     text-decoration: line-through;
-    opacity: 0.6;
+    opacity: 0.5;
+    color: gray;
 }
-  
+
+/* Task List Button */
+.btn-danger {
+    border: none;    
+    color: #FFFFFF !important;
+    font-family: "Indie Flower", cursive !important;
+    font-size: 1.2rem !important;
+    padding: 0.6rem 1.2rem !important; 
+    border-radius: 1.5rem !important;
+}
+
+.btn-danger:hover {
+    background-color: #900707;
+}
 
